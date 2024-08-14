@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    width: 100%;
+    height: 100px;
+    background: #1d07e2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+    height: 100%;
+    background: #0adae9;
+}
+
+nav {
+    width: 80%;
+    height: 60%;
+    background: #a51414;
+}
+
+main {
+    width: 100%;
+    height: 500px;
+    background: #1a6e74;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section {
+    width: 45%;
+    height: 400px;
+    background: #838383;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article {
+    width: 30%;
+    height: 200px;
+    background: #c20606;
+}
